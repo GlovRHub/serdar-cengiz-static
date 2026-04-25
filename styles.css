@@ -156,7 +156,7 @@ img { display: block; max-width: 100%; }
 }
 @media (min-width: 1024px) { .menu-btn { display: none; } }
 .menu-btn .bar {
-  width: 22px; height: 1px; background: currentColor;
+  width: 22px; height: 1px; background: white;
 }
 
 .mobile-menu {
@@ -322,7 +322,7 @@ img { display: block; max-width: 100%; }
   gap: 1px;
   background: hsl(30 15% 84% / 0.4);
 }
-@media (min-width: 440px) { .collections-grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 250px) { .collections-grid { grid-template-columns: 1fr 1fr; } }
 @media (min-width: 1024px) { .collections-grid { grid-template-columns: repeat(4  , 1fr); } }
 
 .collection-card { background: var(--bg); display: block; }
